@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#contenedor {
+    display: flex;
+    height: 100vh;
+}
+#izquierda {
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: rgb(14, 14, 14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: co;
+}
+#derecha {
+    flex: 1;
+    background-image: url('/imgs/index1.jpg');
+    background-size: cover;
+}
+form {
+    max-width: 300px;
+    margin: auto;
+    background-color: #1b1b1b;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+#buttomform {
+    font-family: 'poppins';
+}
+#textform   h2 {
+    text-align: center;
+    color: #fff;
+   
+}
+#registroform p {
+    color: #fff;
+    font-size: 12px;
+}
+#registroform a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgb(238, 80, 76);
+    color: white;
+    text-decoration: none; /* Elimina el subrayado */
+    border-radius: 3px; /* Agrega bordes redondeados */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: rgb(238, 80, 76);
+    color: #fff;
+    cursor: pointer;
+}
